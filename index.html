@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fer Rojas - Dev </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a href="#inicio" class="logo"><span class="dot"></span>Fer Rojas DEV</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <div class="nav-links" id="navLinks">
+    <a href="#inicio">inicio</a>
+    <a href="#stack">stack</a>
+    <a href="#portfolio">portfolio</a>
+    <a href="https://wa.me/5491144951771" class="nav-cta">contacto</a>
+  </div>
+</nav>
+
+<!-- PRE-HERO -->
+<section class="pre-hero" id="inicio">
+    <video id="bgVideo" autoplay muted loop playsinline poster="tu-poster.jpg">
+      <source src="./assets/video/prehero2.mp4" type="video/mp4">
+    </video>
+  
+  <div class="scroll-cue">
+    <span>SCROLL</span>
+    <span class="stem"></span>
+  </div>
+</section>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid"></div>
+  <span class="eyebrow">Software que se adapta al problema</span>
+  <h1>Diseño soluciones que <span class="accent">evolucionan </span>con tu negocio.</h1>
+  <div class="role-line"><span id="typedRole">Desarrollador Full Stack</span><span class="cursor"></span></div>
+  <p class="lede">Me gusta entender la problemática antes que nada. Creo en un software que simplifica procesos, acompaña el crecimiento de un negocio y perdura en el tiempo.</p>
+  <div class="hero-ctas">
+    <a href="https://github.com/FerjRojas1?tab=repositories" class="btn btn-primary">Ver portfolio</a>
+    <a href="https://wa.me/5491144951771" class="btn btn-ghost">Contactar</a>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="stack">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Tecnologías</span>
+      <h2>El stack detrás de cada proyecto</h2>
+      <p>Herramientas probadas en producción, elegidas por rendimiento, escalabilidad y mantenibilidad.</p>
+    </div>
+    <div class="stack-groups">
+      <div class="stack-group">
+        <h3>Frontend</h3>
+        <div class="tag-list">
+          <span class="tag">React</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Tailwind CSS</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <h3>Backend</h3>
+        <div class="tag-list">
+          <span class="tag">JAVA</span>
+          <span class="tag">PHP</span>
+          <span class="tag">Python</span>
+          <span class="tag">Solidity</span>
+          <span class="tag">API REST</span>
+          <span class="tag">C / C#</span>
+          <span class="tag">Docker</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <h3>Datos &amp; Infraestruct</h3>
+        <div class="tag-list">
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">SQL Server</span>
+          <span class="tag">Google SHEETS</span>
+          <span class="tag">Looker Studio</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trace"></div>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Portfolio</span>
+      <h2>Proyectos recientes</h2>
+      <p>Una selección de trabajos, con código abierto para revisar en GitHub.</p>
+    </div>
+    <div class="portfolio-grid">
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <a class="project-link" href="#" aria-label="Ver repositorio en GitHub">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 4.94 3.2 9.13 7.65 10.61.56.1.76-.24.76-.54v-1.9c-3.11.68-3.77-1.5-3.77-1.5-.51-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.12.08 1.72 1.15 1.72 1.15 1 1.72 2.62 1.22 3.26.93.1-.73.4-1.22.72-1.5-2.48-.28-5.1-1.24-5.1-5.53 0-1.22.44-2.22 1.14-3-.11-.28-.5-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.56 0c2.11-1.44 3.04-1.14 3.04-1.14.61 1.53.22 2.66.11 2.94.71.78 1.14 1.78 1.14 3 0 4.3-2.63 5.24-5.13 5.52.41.35.76 1.04.76 2.1v3.11c0 .3.2.65.77.54A11.03 11.03 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5Z"/></svg>
+            Código
+          </a>
+        </div>
+        <h3>App IVA Facil y Rapido</h3>
+        <p>Dashboard de gestión de clientes y liquidación de IVA mediante importación de excel ventas / compras.</p>
+        <div class="project-tags"><span>ASP.NET</span><span>C#</span><span>AdminLTE Bootstrap</span><span>SQL Server</span></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          </div>
+          <a class="project-link" href="https://ferjrojas1.github.io/eyacaviahue/" aria-label="Ver repositorio en GitHub">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 4.94 3.2 9.13 7.65 10.61.56.1.76-.24.76-.54v-1.9c-3.11.68-3.77-1.5-3.77-1.5-.51-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.12.08 1.72 1.15 1.72 1.15 1 1.72 2.62 1.22 3.26.93.1-.73.4-1.22.72-1.5-2.48-.28-5.1-1.24-5.1-5.53 0-1.22.44-2.22 1.14-3-.11-.28-.5-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.56 0c2.11-1.44 3.04-1.14 3.04-1.14.61 1.53.22 2.66.11 2.94.71.78 1.14 1.78 1.14 3 0 4.3-2.63 5.24-5.13 5.52.41.35.76 1.04.76 2.1v3.11c0 .3.2.65.77.54A11.03 11.03 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5Z"/></svg>
+            Código
+          </a>
+        </div>
+        <h3>Landing Page AYE CAVIAHUE</h3>
+        <p>Landing Turistica para guía de trekking de Caviahue.</p>
+        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <a class="project-link" href="https://github.com/FerjRojas1/KipuBankV3.v1.1" aria-label="Ver repositorio en GitHub">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 4.94 3.2 9.13 7.65 10.61.56.1.76-.24.76-.54v-1.9c-3.11.68-3.77-1.5-3.77-1.5-.51-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.12.08 1.72 1.15 1.72 1.15 1 1.72 2.62 1.22 3.26.93.1-.73.4-1.22.72-1.5-2.48-.28-5.1-1.24-5.1-5.53 0-1.22.44-2.22 1.14-3-.11-.28-.5-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.56 0c2.11-1.44 3.04-1.14 3.04-1.14.61 1.53.22 2.66.11 2.94.71.78 1.14 1.78 1.14 3 0 4.3-2.63 5.24-5.13 5.52.41.35.76 1.04.76 2.1v3.11c0 .3.2.65.77.54A11.03 11.03 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5Z"/></svg>
+            Código
+          </a>
+        </div>
+        <h3>KIPUBANK</h3>
+        <p>SmartContract simil bóveda bancaria con soporte para depósitos y retiros en USDC.</p>
+        <div class="project-tags"><span>Solidity</span><span>Foundry</span></div>
+      </div>
+
+    </div>
+    <div class="portfolio-more">
+      <a href="https://github.com/FerjRojas1?tab=repositories" class="btn btn-ghost">Ver todos los repositorios en GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contacto">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo"><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--neon);display:inline-block;box-shadow:0 0 8px var(--neon);"></span>FR DEV</div>      
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/FerjRojas1?tab=repositories" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/fernando-rojas-6714b9202/" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/5491144951771" target="_blank" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Fer Rojas. Todos los derechos reservados.</span>      
+    </div>
+  </div>
+</footer>
+
+<script src="./js/script.js"></script>
+
+</body>
+</html>
