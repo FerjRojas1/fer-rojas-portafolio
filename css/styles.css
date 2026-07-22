@@ -557,3 +557,30 @@
   @media (prefers-reduced-motion: reduce){
     *{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important; }
   }
+  .cv-link{
+    width:42px;
+    height:42px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:1px solid var(--border);
+    border-radius:50%;
+
+    font-size:.8rem;
+    font-weight:700;
+    letter-spacing:.08em;
+
+    text-decoration:none;
+    color:var(--text);
+
+    transition:.25s;
+}
+
+.cv-link:hover{
+    color:var(--neon);
+    border-color:var(--neon);
+    box-shadow:0 0 14px rgba(57,255,140,.25);
+    transform:translateY(-2px);
+}
