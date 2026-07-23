@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre mí · Fer Rojas - Dev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a href="./index.html" class="logo"><span class="dot"></span>Fer Rojas DEV</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <div class="nav-links" id="navLinks">
+    <a href="./index.html#inicio">inicio</a> 
+    <a href="./about.html">sobre mí</a>
+    <a href="./index.html#portfolio">portfolio</a>
+    <a href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="nav-cta">contacto</a>
+  </div>
+</nav>
+
+<!-- ABOUT HERO -->
+<section class="about-hero" id="sobre-mi">
+  <div class="hero-grid"></div>
+  <div class="about-grid">
+
+    <!-- FOTO -->
+    <div class="about-photo">       
+        <img src="./assets/foto-about.webp" alt="Fernando Rojas, Desarrollador Full Stack">      
+    </div>
+
+    <!-- TEXTO -->
+    <div class="about-text">
+      <span class="eyebrow">Sobre mí</span>
+       
+      <h1>De la sombra<br><span class="accent">a la vidriera digital.</span></h1>
+
+       <p class="lede">Diseño pensando primero en la marca y en el usuario, no en la plantilla. Cada landing o producto que armo parte de entender qué necesita transmitir un negocio antes de decidir cómo se va a ver.</p>
+
+       <p class="lede">Del lado del backend, me interesa la estructura que sostiene esa experiencia. Cómo una buena arquitectura de datos se traduce en tiempo y valor real para un negocio. En una app de liquidación de IVA que lideré junto a un equipo de colegas, definí la lógica de clasificación de datos que redujo el proceso de 1 hora a 5-10 minutos.</p>
+
+       <p class="lede">Trabajo con un criterio simple. La interfaz tiene que ser atractiva, pero también tiene que ser funcional y sostenerse en el tiempo. Me interesan los equipos donde se puede pensar en conjunto, no solo ejecutar.</p>
+      <div class="about-meta">
+        <span>CABA, Argentina</span>
+        <span>Presencial / Híbrido / Remoto</span>
+      </div>
+
+      <div class="about-ctas">
+        <a href="./assets/cv/Fernando-Rojas-CV.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Ver CV</a>
+        <a href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." class="btn btn-ghost" target="_blank" rel="noopener noreferrer">Hablemos</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contacto">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo"><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--neon);display:inline-block;box-shadow:0 0 8px var(--neon);"></span>FR DEV</div>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/FerjRojas1?tab=repositories" aria-label="GitHub"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/fernando-rojas-6714b9202/" aria-label="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:feer.rojas@live.com.ar?subject=Consulta desde tu Portfolio&body=Hola Fernando,%0A%0AQuisiera conversar sobre un proyecto, tenes disponibilidad esta semana?" aria-label="Email"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." target="_blank" aria-label="WhatsApp"
+          rel="noopener noreferrer">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="./assets/cv/Fernando-Rojas-CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cv-link"
+          aria-label="Ver Currículum">
+            CV
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Fer Rojas. Todos los derechos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="./js/script.js"></script>
+
+</body>
+</html>
