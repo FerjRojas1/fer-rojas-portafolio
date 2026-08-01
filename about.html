@@ -10,19 +10,23 @@
 <link rel="stylesheet" href="./css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<body>
+<body data-page="about">
 
 <!-- NAVBAR -->
 <nav class="navbar">
-  <a href="./index.html" class="logo"><span class="dot"></span>Fer Rojas DEV</a>
-  <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+  <a href="#inicio" class="logo"><span class="dot"></span>Fer Rojas DEV</a>
+  <button class="nav-toggle" id="navToggle" data-i18n-aria-label="navToggleLabel" aria-label="Abrir menú" aria-expanded="false">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
   </button>
   <div class="nav-links" id="navLinks">
-    <a href="./index.html#inicio">inicio</a> 
-    <a href="./about.html">sobre mí</a>
-    <a href="./index.html#portfolio">portfolio</a>
-    <a href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="nav-cta">contacto</a>
+    <a href="index.html" data-i18n="navHome">inicio</a>
+    <a href="./about.html" data-i18n="navAbout">sobre mí</a>
+    <a href="index.html#portfolio" data-i18n="navPortfolio">portfolio</a>
+    <a href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="nav-cta" data-i18n="navContact">contacto</a>
+    <div class="lang-switch" role="group" aria-label="Language switch">
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    </div>
   </div>
 </nav>
 
@@ -33,28 +37,28 @@
 
     <!-- FOTO -->
     <div class="about-photo">       
-        <img src="./assets/foto-about.webp" alt="Fernando Rojas, Desarrollador Full Stack">      
+        <img src="./assets/foto-about.webp" alt="Fernando Rojas, Desarrollador Full Stack" data-i18n-alt="aboutPhotoAlt">      
     </div>
 
     <!-- TEXTO -->
     <div class="about-text">
-      <span class="eyebrow">Sobre mí</span>
+      <span class="eyebrow" data-i18n="aboutEyebrow">Sobre mí</span>
        
-      <h1>De la sombra<br><span class="accent">a la vidriera digital.</span></h1>
+      <h1 data-i18n-html="aboutTitle">De la sombra<br><span class="accent">a la vidriera digital.</span></h1>
 
-       <p class="lede">Diseño pensando primero en la marca y en el usuario, no en la plantilla. Cada landing o producto que armo parte de entender qué necesita transmitir un negocio antes de decidir cómo se va a ver.</p>
+       <p class="lede" data-i18n="aboutLede1">Diseño pensando primero en la marca y en el usuario, no en la plantilla. Cada landing o producto que armo parte de entender qué necesita transmitir un negocio antes de decidir cómo se va a ver.</p>
 
-       <p class="lede">Del lado del backend, me interesa la estructura que sostiene esa experiencia. Cómo una buena arquitectura de datos se traduce en tiempo y valor real para un negocio. En una app de liquidación de IVA que lideré junto a un equipo de colegas, definí la lógica de clasificación de datos que redujo el proceso de 1 hora a 5-10 minutos.</p>
+       <p class="lede" data-i18n="aboutLede2">Del lado del backend, me interesa la estructura que sostiene esa experiencia. Cómo una buena arquitectura de datos se traduce en tiempo y valor real para un negocio. En una app de gestion impositiva que  lideré junto a un equipo de colegas, logramos reducir el proceso de clasificacion de informacion de 1 hora a 5-10 minutos.</p>
 
-       <p class="lede">Trabajo con un criterio simple. La interfaz tiene que ser atractiva, pero también tiene que ser funcional y sostenerse en el tiempo. Me interesan los equipos donde se puede pensar en conjunto, no solo ejecutar.</p>
+       <p class="lede" data-i18n="aboutLede3">Trabajo con un criterio simple. La interfaz tiene que ser atractiva, pero también tiene que ser funcional y sostenerse en el tiempo. Me interesan los equipos donde se puede pensar en conjunto, no solo ejecutar.</p>
       <div class="about-meta">
-        <span>CABA, Argentina</span>
-        <span>Presencial / Híbrido / Remoto</span>
+        <span data-i18n="aboutMetaLocation">CABA, Argentina</span>
+        <span data-i18n="aboutMetaAvailability">Presencial / Híbrido / Remoto</span>
       </div>
 
       <div class="about-ctas">
-        <a href="./assets/cv/Fernando-Rojas-CV.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Ver CV</a>
-        <a href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." class="btn btn-ghost" target="_blank" rel="noopener noreferrer">Hablemos</a>
+        <a href="./assets/cv/Fernando-Rojas-CV.pdf" class="btn btn-primary" data-i18n="aboutCtaCv" target="_blank" rel="noopener noreferrer">Ver CV</a>
+        <a href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." class="btn btn-ghost" data-i18n="aboutCtaContact" target="_blank" rel="noopener noreferrer">Hablemos</a>
       </div>
     </div>
 
@@ -92,17 +96,20 @@
           target="_blank"
           rel="noopener noreferrer"
           class="cv-link"
+          data-i18n="cvLabel"
           aria-label="Ver Currículum">
             CV
         </a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Fer Rojas. Todos los derechos reservados.</span>
+      <span data-i18n="footerCopyright">© 2026 Fer Rojas. Todos los derechos reservados.</span>
     </div>
   </div>
 </footer>
 
+<script src="./js/translations.js"></script>
+<script src="./js/language.js"></script>
 <script src="./js/script.js"></script>
 
 </body>

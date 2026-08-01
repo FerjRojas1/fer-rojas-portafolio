@@ -734,3 +734,15 @@
     .about-meta{ justify-content:center; }
     .about-ctas{ justify-content:center; }
 }
+
+/*btns ES/EN */
+
+/* Evita el "flash" de contenido sin traducir mientras carga el JS */
+  body{opacity:0;transition:opacity .2s ease;}
+  body.i18n-ready{opacity:1;}
+
+  /* Switcher de idioma */
+  .lang-switch{display:inline-flex;align-items:center;gap:2px;margin-left:8px;padding:3px;border:1px solid rgba(255,255,255,.15);border-radius:999px;}
+  .lang-btn{background:transparent;border:none;color:rgba(255,255,255,.55);font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em;padding:4px 10px;border-radius:999px;cursor:pointer;transition:all .15s ease;}
+  .lang-btn:hover{color:#fff;}
+  .lang-btn.active{background:var(--neon,#39ff14);color:#000;font-weight:600;}
