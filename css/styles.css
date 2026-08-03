@@ -746,3 +746,53 @@
   .lang-btn{background:transparent;border:none;color:rgba(255,255,255,.55);font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em;padding:4px 10px;border-radius:999px;cursor:pointer;transition:all .15s ease;}
   .lang-btn:hover{color:#fff;}
   .lang-btn.active{background:var(--neon,#39ff14);color:#000;font-weight:600;}
+
+  /*Logo Footer */
+
+  .footer-logo{
+    display:inline-flex;
+    align-items:center;
+}
+
+.footer-logo img{
+
+    width:130px;
+    height:auto;
+
+    display:block;
+
+    transition:.25s ease;
+
+}
+
+.footer-logo:hover img{
+
+    transform:scale(1.05);
+
+}
+
+/*Logo Navbar*/
+
+.logo{
+
+    display:flex;
+    align-items:center;
+
+}
+
+.navbar-logo{
+
+    height: 50px;
+    width:auto;
+
+    display:block;
+
+    transition:all .30s ease;
+
+}
+
+.logo:hover .navbar-logo{
+
+    transform:scale(1.03);
+
+}

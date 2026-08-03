@@ -3,31 +3,107 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title data-i18n="pageTitleHome">Fer Rojas - Dev </title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="./assets/logo/favicon.ico">
+
+<link rel="icon" type="image/png" sizes="16x16"
+      href="./assets/logo/favicon-16x16.png">
+
+<link rel="icon" type="image/png" sizes="32x32"
+      href="./assets/logo/favicon-32x32.png">
+
+<link rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/logo/apple-touch-icon.png">
+
+<link rel="manifest"
+      href="./assets/logo/site.webmanifest">
+
+<meta name="theme-color" content="#0E0E0E">
 </head>
 <body data-page="home">
 
 <!-- NAVBAR -->
 <nav class="navbar">
-  <a href="#inicio" class="logo"><span class="dot"></span>Fer Rojas DEV</a>
-  <button class="nav-toggle" id="navToggle" data-i18n-aria-label="navToggleLabel" aria-label="Abrir menú" aria-expanded="false">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-  </button>
-  <div class="nav-links" id="navLinks">
-    <a href="#inicio" data-i18n="navHome">inicio</a>
-    <a href="./about.html" data-i18n="navAbout">sobre mí</a>
-    <a href="#portfolio" data-i18n="navPortfolio">portfolio</a>
-    <a href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="nav-cta" data-i18n="navContact">contacto</a>
-    <div class="lang-switch" role="group" aria-label="Language switch">
-      <button type="button" class="lang-btn" data-lang="es">ES</button>
-      <button type="button" class="lang-btn" data-lang="en">EN</button>
+
+    <a href="#inicio" class="logo">
+
+        <img
+            src="./assets/logo/fr-dev-logo-navbar1.svg"
+            alt="FR Dev Logo"
+            class="navbar-logo">
+
+    </a>
+
+    <button
+        class="nav-toggle"
+        id="navToggle"
+        data-i18n-aria-label="navToggleLabel"
+        aria-label="Abrir menú"
+        aria-expanded="false">
+
+        <svg width="20" height="20" viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2">
+
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+
+        </svg>
+
+    </button>
+
+    <div class="nav-links" id="navLinks">
+
+        <a href="index.html" data-i18n="navHome">Inicio</a>
+
+        <a href="./about.html" data-i18n="navAbout">Sobre mí</a>
+
+        <a href="index.html#portfolio" data-i18n="navPortfolio">Portfolio</a>
+
+        <a
+            href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-cta"
+            data-i18n="navContact">
+
+            Contacto
+
+        </a>
+
+        <div class="lang-switch" role="group" aria-label="Language switch">
+
+            <button type="button"
+                    class="lang-btn"
+                    data-lang="es">
+
+                ES
+
+            </button>
+
+            <button type="button"
+                    class="lang-btn"
+                    data-lang="en">
+
+                EN
+
+            </button>
+
+        </div>
+
     </div>
-  </div>
+
 </nav>
 
 <!-- PRE-HERO -->
@@ -166,9 +242,14 @@
 <footer id="contacto">
   <div class="container">
     <div class="footer-top">
+
       <div class="footer-brand">
-        <div class="logo"><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--neon);display:inline-block;box-shadow:0 0 8px var(--neon);"></span>FR DEV</div>      
-      </div>
+        <a href="./index.html" class="footer-logo">
+            <img
+                src="./assets/logo/fr-dev-logo-footer.svg"
+                alt="FR Dev Logo">
+        </a>
+    </div>
       <div class="footer-socials">
         <a href="https://github.com/FerjRojas1?tab=repositories" aria-label="GitHub"
           target="_blank"
@@ -180,13 +261,13 @@
           rel="noopener noreferrer">
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="mailto:feer.rojas@live.com.ar?subject=Consulta desde tu Portfolio&body=Hola Fernando,%0A%0AQuisiera conversar sobre un proyecto, tenes disponibilidad esta semana?" aria-label="Email"
+        <a href="mailto:feer.rojas@live.com.ar?subject=Consulta desde tu Portfolio&body=Hola Fer,%0A%0AQuisiera conversar sobre un proyecto, tenes disponibilidad esta semana?" aria-label="Email"
           target="_blank"
           rel="noopener noreferrer">
           <i class="fa-solid fa-envelope"></i>
         </a>
         </a>
-        <a href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." target="_blank" aria-label="WhatsApp"
+        <a href="https://wa.me/5491144951771?text=Hola%20Fer,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." target="_blank" aria-label="WhatsApp"
           target="_blank"
           rel="noopener noreferrer">
           <i class="fa-brands fa-whatsapp"></i>
