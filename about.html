@@ -49,7 +49,7 @@ gtag('config', 'G-C3B6K5D289');
 <!-- NAVBAR -->
 <nav class="navbar">
 
-    <a href="#inicio" class="logo">
+    <a href="./index.html#inicio" class="logo">
 
         <img
             src="./assets/logo/fr-dev-logo-navbar1.svg"
@@ -86,12 +86,19 @@ gtag('config', 'G-C3B6K5D289');
 
         <a href="index.html#portfolio" data-i18n="navPortfolio">Portfolio</a>
 
+        
         <a
             href="https://wa.me/5491144951771?text=Hola%20Fernando,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto."
+            class="nav-cta"
+
+            data-event="contact_whatsapp"
+            data-section="navbar"
+
             target="_blank"
             rel="noopener noreferrer"
-            class="nav-cta"
+
             data-i18n="navContact">
+            
 
             Contacto
 
@@ -148,8 +155,29 @@ gtag('config', 'G-C3B6K5D289');
       </div>
 
       <div class="about-ctas">
-        <a href="./assets/cv/Fernando-Rojas-CV.pdf" class="btn btn-primary" data-i18n="aboutCtaCv" target="_blank" rel="noopener noreferrer">Ver CV</a>
-        <a href="https://wa.me/5491144951771?text=Hola%20Fer,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." class="btn btn-ghost" data-i18n="aboutCtaContact" target="_blank" rel="noopener noreferrer">Hablemos</a>
+        <a 
+        href="./assets/cv/Fernando-Rojas-CV.pdf" 
+        class="btn btn-primary" 
+        
+        data-event="cv_view"
+        data-section="txt_about"
+        
+        target="_blank" 
+        rel="noopener noreferrer"
+        
+        data-i18n="aboutCtaCv">Ver CV</a>
+
+        <a
+         href="https://wa.me/5491144951771?text=Hola%20Fer,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." 
+         class="btn btn-ghost" 
+         
+         data-event="contact_whatsapp"
+         data-section="txt_about"
+
+         target="_blank"
+         rel="noopener noreferrer"
+
+         data-i18n="aboutCtaContact">Hablemos</a>
       </div>
     </div>
 
@@ -167,32 +195,81 @@ gtag('config', 'G-C3B6K5D289');
                 alt="FR Dev Logo">
         </a>
       </div>
+
+      <!-- Contacts -->
+
       <div class="footer-socials">
-        <a href="https://github.com/FerjRojas1?tab=repositories" aria-label="GitHub"
+
+        <!-- Github -->
+        <a
+          href="https://github.com/FerjRojas1?tab=repositories" 
+          
+          data-event="social_github"
+          data-section="footer"
+
+          aria-label="GitHub"
           target="_blank"
           rel="noopener noreferrer">
+
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/fernando-rojas-6714b9202/" aria-label="LinkedIn"
+
+        <!-- LinkedIN -->
+        <a 
+          href="https://www.linkedin.com/in/fernando-rojas-6714b9202/" 
+          
+          data-event="social_linkedin"
+          data-section="footer"
+
+          aria-label="LinkedIn"
           target="_blank"
           rel="noopener noreferrer">
+
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="mailto:feer.rojas@live.com.ar?subject=Consulta desde tu Portfolio&body=Hola Fer,%0A%0AQuisiera conversar sobre un proyecto, tenes disponibilidad esta semana?" aria-label="Email"
+
+        <!-- Mail -->
+        <a 
+          href="mailto:feer.rojas@live.com.ar?subject=Consulta desde tu Portfolio&body=Hola Fer,%0A%0AQuisiera conversar sobre un proyecto, tenes disponibilidad esta semana?" 
+         
+          data-event="contact_email"
+          data-section="footer"
+
+          aria-label="Email"
           target="_blank"
           rel="noopener noreferrer">
+
           <i class="fa-solid fa-envelope"></i>
         </a>
-        <a href="https://wa.me/5491144951771?text=Hola%20Fer,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." target="_blank" aria-label="WhatsApp"
+
+        <!-- Whatsapp -->
+        <a 
+          href="https://wa.me/5491144951771?text=Hola%20Fer,%20vi%20tu%20portfolio%20y%20me%20gustaría%20hablar%20sobre%20un%20proyecto." 
+          
+          data-event="contact_whatsapp"
+          data-section="footer"
+
+          target="_blank" aria-label="WhatsApp"
           rel="noopener noreferrer">
+          
+
           <i class="fa-brands fa-whatsapp"></i>
         </a>
-        <a href="./assets/cv/Fernando-Rojas-CV.pdf"
+
+        <!-- CV -->
+        <a 
+          href="./assets/cv/Fernando-Rojas-CV.pdf"
+          class="cv-link"
+          
+          data-event="cv_view"
+          data-section="footer"
+
           target="_blank"
           rel="noopener noreferrer"
-          class="cv-link"
+          
           data-i18n="cvLabel"
           aria-label="Ver Currículum">
+
             CV
         </a>
       </div>
@@ -206,6 +283,7 @@ gtag('config', 'G-C3B6K5D289');
 <script src="./js/translations.js"></script>
 <script src="./js/language.js"></script>
 <script src="./js/script.js"></script>
+<script src="./js/analytics.js"></script>
 
 </body>
 </html>
