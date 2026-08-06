@@ -3,8 +3,11 @@
 
 const translations = {
   es: {
+    // Index Btn
+    indexbtn:"Continuar",
+
     // Meta / título de pestaña
-    pageTitleHome: "Fer Rojas - Dev",
+    pageTitleHome: "Inicio · Fer Rojas - Dev",
     pageTitleAbout: "Sobre mí · Fer Rojas - Dev",
 
     // Navbar
@@ -55,10 +58,10 @@ const translations = {
 
     // About
     aboutEyebrow: "Sobre mí",
-    aboutTitle: 'De la sombra<br><span class="accent">a la vidriera digital.</span>',
+    aboutTitle: 'Full Stack<br><span class="accent">Developer.</span>',
     aboutPhotoAlt: "Fernando Rojas, Desarrollador Full Stack",
-    aboutLede1: "Diseño pensando primero en la marca y en el usuario, no en la plantilla. Cada landing o producto que armo parte de entender qué necesita transmitir un negocio antes de decidir cómo se va a ver.",
-    aboutLede2: "Del lado del backend, me interesa la estructura que sostiene esa experiencia. Cómo una buena arquitectura de datos se traduce en tiempo y valor real para un negocio. En una app de gestion impositiva que lideré junto a un equipo de colegas, logramos reducir el proceso de clasificacion de informacion de 1 hora a 5-10 minutos.",
+    aboutLede1: "Diseño pensando primero en la marca y en el usuario, no en un estandar. Cada landing o producto que armo parte de entender qué se necesita transmitir antes de decidir cómo se va a ver.",
+    aboutLede2: "Del lado del backend, me interesa la estructura que sostiene esa experiencia. Cómo una buena arquitectura de datos se traduce en tiempo y valor real. En una app de gestion impositiva que lideré junto a un equipo de colegas, logramos reducir el proceso de clasificacion de informacion de 1 hora a 5-10 minutos.",
     aboutLede3: "Trabajo con un criterio simple. La interfaz tiene que ser atractiva, pero también tiene que ser funcional y sostenerse en el tiempo. Me interesan los equipos donde se puede pensar en conjunto, no solo ejecutar.",
     aboutMetaLocation: "CABA, Argentina",
     aboutMetaAvailability: "Presencial / Híbrido / Remoto",
@@ -67,8 +70,12 @@ const translations = {
   },
 
   en: {
+
+    // Index Btn
+    indexbtn:"Continue",
+
     // Meta / tab title
-    pageTitleHome: "Fer Rojas - Dev",
+    pageTitleHome: "Index · Fer Rojas - Dev",
     pageTitleAbout: "About · Fer Rojas - Dev",
 
     // Navbar
@@ -119,10 +126,10 @@ const translations = {
 
     // About
     aboutEyebrow: "About me",
-    aboutTitle: 'From the shadows<br><span class="accent">to the digital showcase.</span>',
+    aboutTitle: 'Full Stack<br><span class="accent">Developer.</span>',
     aboutPhotoAlt: "Fernando Rojas, Full Stack Developer",
-    aboutLede1: "I design thinking about the brand and the user first, not the template. Every landing page or product I build starts with understanding what a business needs to communicate before deciding how it should look.",
-    aboutLede2: "On the backend side, I care about the structure that supports that experience — how solid data architecture translates into real time and value for a business. On a tax management app I led together with a team of colleagues, we reduced the information classification process from 1 hour to 5–10 minutes.",
+    aboutLede1: "I design thinking about the brand and the user first, not a standard. Every landing page or product I build starts with understanding what needs to be conveyed before deciding what it will look like.",
+    aboutLede2: "On the backend side, I care about the structure that supports that experience — how solid data architecture translates into real time and value. On a tax management app I led together with a team of colleagues, we reduced the information classification process from 1 hour to 5–10 minutes.",
     aboutLede3: "I work with a simple principle: the interface has to be appealing, but it also has to be functional and built to last. I'm drawn to teams where you can think things through together, not just execute.",
     aboutMetaLocation: "CABA, Argentina",
     aboutMetaAvailability: "On-site / Hybrid / Remote",
