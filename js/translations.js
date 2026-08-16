@@ -40,13 +40,13 @@ const translations = {
     projectCodeLabel: "Código",
 
     project1Title: "App Gestion Impositiva",
-    project1Desc: "Dashboard de gestión de clientes y liquidación de impuestos mediante importación de excel ventas / compras.",
+    project1Desc: "Dashboard de gestión de clientes y liquidación de impuestos. Automatizacion en clasificación de datos vía Excel, reduciendo el proceso de 1 hora a 5-10 minutos.",
 
-    project2Title: "Landing Page AYE CAVIAHUE",
-    project2Desc: "Landing Turistica para guía de trekking de Caviahue.",
+    project2Title: "Despejado",
+    project2Desc: "Gestor de tareas minimalista, pensado para bajar la fricción de organizarse. Sin categorías rígidas ni curva de aprendizaje — anotás y ordenás a tu ritmo.",
 
     project3Title: "KIPUBANK",
-    project3Desc: "SmartContract simil bóveda bancaria con soporte para depósitos y retiros en USDC.",
+    project3Desc: "Smart contract tipo bóveda bancaria en Solidity, con depósitos/retiros en USDC. Foco en patrones de seguridad (checks-effects-interactions) y testing con Foundry.",
 
     portfolioMoreBtn: "Ver todos los repositorios en GitHub",
 
@@ -58,7 +58,7 @@ const translations = {
     aboutEyebrow: "Sobre mí",
     aboutTitle: 'Full Stack<br><span class="accent">Developer.</span>',
     aboutPhotoAlt: "Fernando Rojas, Desarrollador Full Stack",
-    aboutLede1: "Diseño pensando primero en la marca y en el usuario, no en un estandar. Cada landing o producto que armo parte de entender qué se necesita transmitir antes de decidir cómo se va a ver.",
+    aboutLede1: "Mi nombre es Fernando Rojas soy programador, me gusta diseñar pensando en que se quiere comunicar, no en un estandar. Cada landing o producto que armo parte de entender qué se necesita transmitir antes de decidir cómo se va a ver.",
     aboutLede2: "Del lado del backend, me interesa la estructura que sostiene esa experiencia. Cómo una buena arquitectura de datos se traduce en tiempo y valor real. En una app de gestion impositiva que lideré junto a un equipo de colegas, logramos reducir el proceso de clasificacion de informacion de 1 hora a 5-10 minutos.",
     aboutLede3: "Trabajo con un criterio simple. La interfaz tiene que ser atractiva, pero también tiene que ser funcional y sostenerse en el tiempo. Me interesan los equipos donde se puede pensar en conjunto, no solo ejecutar.",
     aboutMetaLocation: "CABA, Argentina",
@@ -83,7 +83,7 @@ const translations = {
 
     // Hero (index)
     heroEyebrow: "Software that adapts to the problem",
-    heroTitle: 'Design with <span class="accent">judgment</span>, engineering with purpose.',
+    heroTitle: 'Design with <span class="accent">discernment</span>, engineering with purpose.',
     heroLede: "Every project starts with understanding the problem before writing the first line of code.",
     ctaPortfolio: "View portfolio",
     ctaContact: "Get in touch",
@@ -106,13 +106,13 @@ const translations = {
     projectCodeLabel: "Code",
 
     project1Title: "Tax Management App",
-    project1Desc: "Client management dashboard and tax filing through sales / purchase Excel imports.",
+    project1Desc: "Dashboard for client management and tax settlement. Automated data classification via Excel, reducing the process from one hour to 5–10 minutes.",
 
-    project2Title: "AYE Caviahue Landing Page",
-    project2Desc: "Tourism landing page for a Caviahue trekking guide.",
+    project2Title: "Clear",
+    project2Desc: "A minimalist task manager designed to reduce the friction of getting organized. No rigid categories or learning curve—you jot things down and organize them at your own pace.",
 
     project3Title: "KIPUBANK",
-    project3Desc: "Bank-vault-style smart contract supporting USDC deposits and withdrawals.",
+    project3Desc: "Bank-vault-style smart contract in Solidity, featuring USDC deposits and withdrawals. Focus on security patterns (checks-effects-interactions) and testing with Foundry.",
 
     portfolioMoreBtn: "View all repositories on GitHub",
 
@@ -124,7 +124,7 @@ const translations = {
     aboutEyebrow: "About me",
     aboutTitle: 'Full Stack<br><span class="accent">Developer.</span>',
     aboutPhotoAlt: "Fernando Rojas, Full Stack Developer",
-    aboutLede1: "I design thinking about the brand and the user first, not a standard. Every landing page or product I build starts with understanding what needs to be conveyed before deciding what it will look like.",
+    aboutLede1: "My name is Fernando Rojas, and I am a programmer. I like to design with the intended message in mind, rather than adhering to a standard. Every landing page or product I build begins with understanding what needs to be conveyed before deciding on the visual design.",
     aboutLede2: "On the backend side, I care about the structure that supports that experience — how solid data architecture translates into real time and value. On a tax management app I led together with a team of colleagues, we reduced the information classification process from 1 hour to 5–10 minutes.",
     aboutLede3: "I work with a simple principle: the interface has to be appealing, but it also has to be functional and built to last. I'm drawn to teams where you can think things through together, not just execute.",
     aboutMetaLocation: "CABA, Argentina",

@@ -481,7 +481,7 @@ section{ padding:110px 0; }
 }
 .project-link{
     position:relative;
-    z-index:1000;
+    z-index:2;
 }
 .project-link:hover{ color:var(--neon); }
 
@@ -512,6 +512,14 @@ section{ padding:110px 0; }
 .portfolio-more{
     text-align:center;
     margin-top:44px;
+}
+
+.project-link::after{
+    content:'';
+    position:absolute;
+    inset:0;             
+    z-index:1;
+    cursor:pointer;
 }
 
 
@@ -814,3 +822,4 @@ footer{
         scroll-behavior:auto !important;
     }
 }
+
