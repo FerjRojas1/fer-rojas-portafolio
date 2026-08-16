@@ -3,8 +3,6 @@
 
 const translations = {
   es: {
-    // Index Btn
-    indexbtn:"Explorar",
 
     // Meta / título de pestaña
     pageTitleHome: "Inicio · Fer Rojas - Dev",
@@ -71,8 +69,6 @@ const translations = {
 
   en: {
 
-    // Index Btn
-    indexbtn:"Explore",
 
     // Meta / tab title
     pageTitleHome: "Index · Fer Rojas - Dev",

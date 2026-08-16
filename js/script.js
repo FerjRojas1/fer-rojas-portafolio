@@ -58,4 +58,27 @@ document.addEventListener("DOMContentLoaded", () => {
   // Reinicia el efecto cada vez que el usuario cambia de idioma
   document.addEventListener("languagechange", (e) => startTyping(e.detail.lang));
 
+  //Navbar visible e invisible
+
+  const navbar = document.querySelector('.navbar');
+  const prehero = document.querySelector('.prehero');
+
+    if (!prehero) {
+        // Páginas sin video (about.html, etc.) -> navbar visible siempre
+        navbar.classList.add('visible');
+    } else {
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+              navbar.classList.toggle('visible', !entry.isIntersecting);
+          },
+          { threshold: 0, rootMargin: '-80% 0px 0px 0px' }
+      );
+          observer.observe(prehero);
+    }
+
+    // Estado "compacto" opcional al seguir bajando
+    window.addEventListener('scroll', () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
 });
