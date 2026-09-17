@@ -28,7 +28,7 @@ const translations = {
     // Stack
     stackEyebrow: "Tecnologías",
     stackTitle: "El stack detrás de cada proyecto",
-    stackDesc: "Herramientas probadas en producción, elegidas por rendimiento, escalabilidad y mantenibilidad.",
+    stackDesc: "Tecnologías elegidas según las necesidades de cada proyecto, con foco en rendimiento, escalabilidad y mantenibilidad.",
     stackFrontend: "Frontend",
     stackBackend: "Backend",
     stackData: "Datos & Infraestructura",
@@ -56,11 +56,12 @@ const translations = {
 
     // About
     aboutEyebrow: "Sobre mí",
-    aboutTitle: 'Full Stack<br><span class="accent">Developer.</span>',
+    aboutTitle: 'Fernando<br><span class="accent">Rojas.</span>',
     aboutPhotoAlt: "Fernando Rojas, Desarrollador Full Stack",
-    aboutLede1: "Mi nombre es Fernando Rojas soy programador, me gusta diseñar pensando en que se quiere comunicar, no en un estandar. Cada landing o producto que armo parte de entender qué se necesita transmitir antes de decidir cómo se va a ver.",
-    aboutLede2: "Del lado del backend, me interesa la estructura que sostiene esa experiencia. Cómo una buena arquitectura de datos se traduce en tiempo y valor real. En una app de gestion impositiva que lideré junto a un equipo de colegas, logramos reducir el proceso de clasificacion de informacion de 1 hora a 5-10 minutos.",
-    aboutLede3: "Trabajo con un criterio simple. La interfaz tiene que ser atractiva, pero también tiene que ser funcional y sostenerse en el tiempo. Me interesan los equipos donde se puede pensar en conjunto, no solo ejecutar.",
+    aboutLede1: "Soy desarrollador Full Stack y me gusta diseñar pensando en qué se quiere comunicar, no en seguir un estándar. Cada landing o producto que construyo parte de entender qué se necesita transmitir antes de decidir cómo se va a ver.",
+    aboutLede2: "Trabajo principalmente con React, TypeScript, Next.js, C# y ASP.NET. Del lado del backend, me interesa la estructura que sostiene esa experiencia: cómo una buena arquitectura y una gestión adecuada de los datos pueden traducirse en tiempo y valor real.",
+    aboutLede3: "En una aplicación de gestión impositiva que lideré junto a un equipo de colegas, logramos reducir el proceso de clasificación de información de aproximadamente 1 hora a 5–10 minutos mediante la automatización del flujo.",
+    aboutLede4: "Trabajo con un criterio simple: la interfaz tiene que ser atractiva, pero también funcional y capaz de sostenerse en el tiempo. Me interesan los equipos donde se puede pensar en conjunto, entender el problema y construir soluciones, no solo ejecutar tareas.",
     aboutMetaLocation: "CABA, Argentina",
     aboutMetaAvailability: "Presencial / Híbrido / Remoto",
     aboutCtaCv: "Ver CV",
@@ -94,7 +95,7 @@ const translations = {
     // Stack
     stackEyebrow: "Technologies",
     stackTitle: "The stack behind every project",
-    stackDesc: "Production-tested tools, chosen for performance, scalability, and maintainability.",
+    stackDesc: "Technologies selected based on the needs of each project, focusing on performance, scalability, and maintainability.",
     stackFrontend: "Frontend",
     stackBackend: "Backend",
     stackData: "Data & Infrastructure",
@@ -122,11 +123,12 @@ const translations = {
 
     // About
     aboutEyebrow: "About me",
-    aboutTitle: 'Full Stack<br><span class="accent">Developer.</span>',
+    aboutTitle: 'Fernando<br><span class="accent">Rojas.</span>',
     aboutPhotoAlt: "Fernando Rojas, Full Stack Developer",
-    aboutLede1: "My name is Fernando Rojas, and I am a programmer. I like to design with the intended message in mind, rather than adhering to a standard. Every landing page or product I build begins with understanding what needs to be conveyed before deciding on the visual design.",
-    aboutLede2: "On the backend side, I care about the structure that supports that experience — how solid data architecture translates into real time and value. On a tax management app I led together with a team of colleagues, we reduced the information classification process from 1 hour to 5–10 minutes.",
-    aboutLede3: "I work with a simple principle: the interface has to be appealing, but it also has to be functional and built to last. I'm drawn to teams where you can think things through together, not just execute.",
+    aboutLede1: "I am a Full Stack developer who prioritizes the message over adhering to rigid standards when designing. For every landing page or product I build, I start by understanding what needs to be conveyed before deciding on the visual design.",
+    aboutLede2: "My primary tech stack includes React, TypeScript, Next.js, C#, and ASP.NET. On the backend, I focus on the underlying structure that supports the user experience—specifically, how robust architecture and effective data management translate into real value and time savings.",
+    aboutLede3: "While leading a team on a tax management application, we successfully reduced the information classification process from approximately one hour to just 5–10 minutes by automating the workflow.",
+    aboutLede4: "My approach is simple: the interface must be visually appealing, yet also functional and built to last. I thrive in teams that collaborate to understand problems and build solutions, rather than simply executing tasks.",
     aboutMetaLocation: "CABA, Argentina",
     aboutMetaAvailability: "On-site / Hybrid / Remote",
     aboutCtaCv: "View CV",
