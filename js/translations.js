@@ -17,8 +17,8 @@ const translations = {
 
     // Hero (index)
     heroEyebrow: "Software que se adapta al problema",
-    heroTitle: 'Diseño con <span class="accent">criterio</span>, ingeniería con propósito.',
-    heroLede: "Cada proyecto parte de entender el problema antes de escribir la primera línea de código.",
+    heroTitle: ' Fer <span class="accent"> Rojas </span><br> Dev',
+    heroLede: "Diseño con criterio, ingenieria con proposito.",
     ctaPortfolio: "Ver portfolio",
     ctaContact: "Contactar",
 
@@ -84,8 +84,8 @@ const translations = {
 
     // Hero (index)
     heroEyebrow: "Software that adapts to the problem",
-    heroTitle: 'Design with <span class="accent">discernment</span>, engineering with purpose.',
-    heroLede: "Every project starts with understanding the problem before writing the first line of code.",
+    heroTitle: 'Fer <span class="accent">Rojas </span><br> dev',
+    heroLede: "Design with discernment, engineering with vision.",
     ctaPortfolio: "View portfolio",
     ctaContact: "Get in touch",
 
